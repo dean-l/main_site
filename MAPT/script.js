@@ -33,6 +33,7 @@ $(document).ready(function(){
     $('.carousel_text').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
+        infinite: false,
         arrows: false,
         fade: true,
         asNavFor: '.carousel'
